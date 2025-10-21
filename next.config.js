@@ -10,7 +10,14 @@ const nextConfig = {
 }
 
 module.exports = {
-  eslint: {
-    dirs: ['pages', 'utils'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
-  },
+  extends: [
+    //...
+    'plugin:@next/next/recommended',
+  ],
 }
+
+eslint-config-next:
+
+eslint-plugin-react
+eslint-plugin-react-hooks
+eslint-plugin-next
